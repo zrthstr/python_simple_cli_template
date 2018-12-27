@@ -21,7 +21,8 @@ def parse_commandline():
 
 
 if __name__ == "__main__":
-    args = parse_commandline()
+    parser = parse_commandline()
+    args = parser.parse_args()
     log = logger()
     print(args) 
     log.error(args)
