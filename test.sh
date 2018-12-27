@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a arr=("version", "auth" "list" "post" "clear" )
+declare -a arr=("version" "auth" "list" "post" "clear" )
 
 cmd=./somename.py
 flags="-v"

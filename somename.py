@@ -16,7 +16,7 @@ def parse_commandline():
     parser = argparse.ArgumentParser()
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('--version', '-V')
-    parser.add_argument('action', choices=['auth', 'list', 'post', 'clear'])
+    parser.add_argument('action', choices=['version', 'auth', 'list', 'post', 'clear'])
     return parser
 
 
